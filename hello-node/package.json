@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "fs-test.js",
-  "dependencies": {},
+  "dependencies": {
+    "phantom": "^3.0.3"
+  },
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
@@ -12,7 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -w ./ -x babel-node async",
+    "start": "nodemon -w ./ -x babel-node async"
   },
   "author": "",
   "license": "ISC"
